@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(4, 72, 49);
+}
+.text_head{
+    color: rgb(255, 255, 255);
+}
+.logo {
+
+    display: flex;
+}
+.rasm_logo{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.text_head {
+    width: 380px;
+    font-size: 25px;
+    margin: 30px;
+}
+.searchs {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+.searchs input{
+    width: 250px ;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+
+}
+.search_btn{
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(4, 72, 49);
+}
+.tel{
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(18, 151, 195);
+}
+.tex_tel{
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+    margin-top: -30px;
+    
+}
+.tel_icon{
+    width: 40px;
+    height: 40px;
+   transform: rotate(270deg);
+   position: relative;
+   left: 180px;
+   top:-15px
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(19, 128, 91);
+}
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav_menu li {
+    
+    list-style: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 12px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  
+  }
+  
+  .dropdown-content a:hover {
+   
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    margin-left:-10px ;
+    
+  }
+  
+  .dropdown:hover .dropbtn {
+    
+  }
+
+  .nav_menu li:hover{
+
+    padding: 12px;
+    text-align: center;
+    background-color: #0b390d;
+
+  }
+
+  .main_pic{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/1.jpg);
+    
+  }
+  .main_pic{
+    display: flex;
+    align-items: end;
+    gap: 50px;
+    justify-content: center;
+   
+  }
+  .card_pic{
+    width: 400px;
+    height: 160px;
+    background-color: #0b390d8e;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 120px;
+
+    
+  }
+  .card_pic h1{
+    color: rgb(238, 238, 98);
+  }
+  .card_pic a{
+    text-decoration: none;
+    color: white;
+    width: 200px;
+  }
+  .card_pic img{
+    width: 60px;
+    height: 60;
+    display: inline-block;
+  }
+
+  .red:hover{
+    background-color: red;
+  }
+  .green:hover{
+    background-color: rgb(49, 158, 18);
+  }
+  .orange:hover{
+    background-color: rgb(182, 122, 32);
+  }
+
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
+
+  .card_news {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(242, 241, 241);
+    text-align: center;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    color: rgb(108, 157, 225);
+  }
+
+  .card_news img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+
+  }
+
+  .main_section{
+  
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
